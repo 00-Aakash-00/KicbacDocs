@@ -1,0 +1,98 @@
+Credit Card Sale
+
+{
+    "event_id": "9b312dfd-3174-4748-9447-d63c8744305a",
+    "event_type": "transaction.check.status.latereturn",
+    "event_body": {
+        "merchant": {
+            "id": "1234",
+            "name": "Test Account"
+        },
+        "features": {
+            "is_test_mode": true
+        },
+        "transaction_id": "1234560000",
+        "transaction_type": "ck",
+        "condition": "failed",
+        "processor_id": "ckprocessora",
+        "ponumber": "123456789",
+        "order_description": "this is a description",
+        "order_id": "12345678",
+        "customerid": "",
+        "customertaxid": "",
+        "website": "https://example.com",
+        "shipping": "",
+        "currency": "USD",
+        "tax": "0.08",
+        "surcharge": "",
+        "cash_discount": "",
+        "tip": "",
+        "requested_amount": "54.04",
+        "shipping_carrier": "",
+        "tracking_number": "",
+        "shipping_date": "",
+        "partial_payment_id": "",
+        "partial_payment_balance": "",
+        "platform_id": "12345678",
+        "authorization_code": "",
+        "social_security_number": "",
+        "drivers_license_number": "",
+        "drivers_license_state": "",
+        "drivers_license_dob": "",
+        "billing_address": {
+            "first_name": "Jessica",
+            "last_name": "Jones",
+            "address_1": "123 Fake St.",
+            "address_2": "123123",
+            "company": "Alias Investigations",
+            "city": "New York City",
+            "state": "NY",
+            "postal_code": "12345",
+            "country": "US",
+            "email": "someone@example.com",
+            "phone": "555-555-5555",
+            "cell_phone": "",
+            "fax": "444-555-6666"
+        },
+        "shipping_address": {
+            "first_name": "Jessica",
+            "last_name": "Jones",
+            "address_1": "123 Fake St.",
+            "address_2": "123123",
+            "company": "Alias Investigations",
+            "city": "New York City",
+            "state": "NY",
+            "postal_code": "12345",
+            "country": "US",
+            "email": "someone@example.com",
+            "phone": "",
+            "fax": ""
+        },
+        "check": {
+            "check_account": "123456****1234",
+            "check_aba": "123456789",
+            "check_name": "Fake Person",
+            "account_holder_type": "personal",
+            "account_type": "checking",
+            "sec_code": "WEB"
+        },
+        "merchant_defined_fields": {},
+        "action": {
+            "amount": "54.04",
+            "action_type": "check_late_return",
+            "date": "20200406175755",
+            "success": "1",
+            "ip_address": "",
+            "source": "internal",
+            "api_method": "",
+            "username": "",
+            "response_text": "Reversed",
+            "response_code": "100",
+            "processor_response_text": "",
+            "tap_to_mobile": false,
+            "processor_response_code": "",
+            "device_license_number": "",
+            "device_nickname": ""
+        }
+    }
+}

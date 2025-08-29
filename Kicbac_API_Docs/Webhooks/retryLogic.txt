@@ -1,0 +1,16 @@
+Retry Logic
+If we try to deliver a webhook notification to your endpoint and do not get an HTTP 200 response, the gateway will reattempt delivery up to 20 times. Over the course of 3 days we will keep trying until a success response is received. If no success response is received in this time period the notification will stop attempting and will not be delivered.
+
+The approximate interval between delivery retires is currently:
+
+1 attempt 15 seconds after the initial attempt
+3 attempts every 60 seconds
+1 attempt 5 minutes later
+1 attempt 15 minutes later
+1 attempt 30 minutes later
+10 attempts every hour
+2 attempts every 12 hours
+1 final attempt after 24 more hours
+Your application should not rely on this specific retry schedule, as the retry timing may change in the future.
+
+The retry schedule may also change based on current circumstances. For example, if there are a large number of pending notifications for your endpoint, we may significantly reduce the number of retry attempts for that endpoint until the backlog is cleared.

@@ -1,0 +1,56 @@
+{
+   "event_id": "7bbd4af6-4075-4902-af56-9fc59ab71362",
+   "event_type": "acu.summary.contactcustomer",
+   "event_body": {
+        "updated_date": "2022-08-23",
+        "merchant": {
+            "id": 123456,
+            "name": "Test Account"
+        },
+        "cards_checked": {
+            "customer_vault": {
+                "checked": 123,
+                "updated": 2
+            },
+            "subscriptions": {
+                "checked": 232,
+                "updated": 1
+            }
+        },
+        "vault_count_updated_contact_customer": 2,
+        "vault_updates": [
+            {
+                "customer_vault_id": "40403043545",
+                "billing_id": "34544356"
+                "cc_number": "445343******7432",
+                "cc_exp": "06/29",
+                "first_name": "Happy",
+                "last_name": "Customer",
+                "email": "frequent@shopper.com",
+                "phone": "5555559999",
+            },
+            {
+                "customer_vault_id": "281474976710722",
+                "billing_id": "230304034",
+                "cc_number": "434343******0123",
+                "cc_exp": "11/25",
+                "first_name": "Bill",
+                "last_name": "Thompson",
+                "email": "bill@anothercustomer.com",
+                "phone": "6025551213"
+            }
+        ],
+        "recurring_count_updated_contact_customer": 1,
+        "recurring_updates": [
+            {
+                "subscription_id": "323232232445",
+                "cc_number": "465333******4232",
+                "cc_exp": "04/30",
+                "first_name": "Recurring",
+                "last_name": "Customer",
+                "email": "buy@repeatedly.com",
+                "phone": "8185552323"
+            }
+        ]
+    }
+}

@@ -1,0 +1,10 @@
+Events
+Each endpoint can be subscribed to specific events that happen in the gateway. Most events have multiple versions: success, failure, and unknown.
+
+Available Event Types
+Event Category	Description
+Transactions	Sales, auths, captures, voids, refunds, and credits. Each transaction type can be filtered by successful, failed, and unknown transactions.
+Recurring	Available for new, updated, and/or canceled subscriptions and plans.
+Settlement	Batch summaries and can be filtered by successful and failed settlements.
+Chargebacks	If your processor supports chargeback reporting, chargebacks can be delivered as events.
+Automatic Card Updater	Available for card records updated, marked as closed, or for customer contact in the Customer Vault and/or recurring subscription records.

@@ -1,0 +1,36 @@
+
+{
+    "event_id": "d5b08691-cf24-41a4-9a5f-af8a1f5e2a13",
+    "event_type": "chargeback.batch.complete",
+    "event_body": {
+        "merchant": {
+            "id": "123456",
+            "name": "Test Account"
+        },
+        "processor": {
+            "id": "ccprocessor",
+            "name": "CC Processor",
+            "type": "cc"
+        },
+        "count": 2,
+        "chargeback_amount": "11.11",
+        "chargebacks": [
+            {
+                "id": "1234567890",
+                "date": "3/29/2020",
+                "customer_name": "Someone Smith",
+                "cc_number": "411111******1111",
+                "amount": "11.11",
+                "reason": "101: Introductory chargeback"
+            },
+            {
+                "id": "1234567891",
+                "date": "3/29/2020",
+                "customer_name": "Another Person Jr.",
+                "cc_number": "543111******1111",
+                "amount": "18.11",
+                "reason": "101: Introductory chargeback"
+            }
+        ]
+    }
+}

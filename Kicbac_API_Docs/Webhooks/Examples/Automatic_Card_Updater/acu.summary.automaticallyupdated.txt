@@ -1,0 +1,101 @@
+{
+   "event_id": "7958c536-88f0-47f4-bb55-54575259a3be",
+   "event_type": "acu.summary.automaticallyupdated",
+   "event_body": {
+        "updated_date": "2022-08-22",
+        "merchant": {
+            "id": 123456,
+            "name": "Test Account"
+        },
+        "cards_checked": {
+            "customer_vault": {
+                "checked": 376,
+                "updated": 4
+            },
+            "subscriptions": {
+                "checked": 434,
+                "updated": 3,
+            }
+        },
+        "vault_count_updated_cards": 1,
+        "vault_updated_cards": [
+            {
+                "customer_vault_id": "308229500",
+                "billing_id": "1781228768",
+                "cc_number": "445701******0009",
+                "cc_exp": "01/50",
+                "first_name": "Bob",
+                "last_name": "Smith",
+                "email": "bsmith@example.com",
+                "phone": "+14801112222"
+            }
+        ],
+        "vault_count_updated_expiration_dates": 3,
+        "vault_updated_expiration_dates": [
+            {
+                 "customer_vault_id": "2061222895",
+                 "billing_id": "350282046",
+                 "cc_number": "400000******0002",
+                 "cc_exp": "11/70",
+                 "first_name": "Bob",
+                 "last_name": "Smith",
+                 "email": "bobsmith@company.com",
+                 "phone": "4801112222"
+             },
+             {
+                 "customer_vault_id": "1039486483",
+                 "billing_id": "1408598861"
+                 "cc_number": "400000******0034",
+                 "cc_exp": "11/70",
+                 "first_name": "Jane",
+                 "last_name": "Smith",
+                 "email": "jane@organization.org",
+                 "phone": "+12125551222"
+            },
+            {
+                 "customer_vault_id": "1033346428",
+                 "billing_id": "1460247050",
+                 "cc_number": "520000******0007",
+                 "cc_exp": "12/33",
+                 "first_name": "Steve",
+                 "last_name": "Customer",
+                 "email": "steve@customer.com",
+                 "phone": "+13104053434"
+            }
+        ],
+        "recurring_count_updated_cards": 2,
+        "recurring_updated_cards": [
+            {
+                 "subscription_id": "281474976710720",
+                 "cc_number": "445701******0459",
+                 "cc_exp": "01/50",
+                 "first_name": "",
+                 "last_name": "",
+                 "email": "",
+                 "phone": ""
+            },
+            {
+                 "subscription_id": "281474976710726",
+                 "cc_number": "445701******1123",
+                 "cc_exp": "01/50",
+                 "first_name": "Frank",
+                 "last_name": "Jones",
+                 "email": "fjones@example.com",
+                 "phone": "6021234567"
+            }
+        ],
+        "recurring_count_updated_expiration_dates": 1,
+        "recurring_updated_expiration_dates": [
+            {
+                 "subscription_id": "281474976710725",
+                 "cc_number": "400000******3223",
+                 "cc_exp": "11/70",
+                 "first_name": "Susan",
+                 "last_name": "Harris",
+                 "email": "harris@company.com",
+                 "phone": "3125551212"
+            },
+        ]
+    }
+}
+        
