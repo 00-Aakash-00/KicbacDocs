@@ -53,7 +53,7 @@ interface KicbacCredentials {
   // Environment
   api_url: string;              // https://kicbac.transactiongateway.com/api/transact.php
   query_url: string;            // https://kicbac.transactiongateway.com/api/query.php
-  collectjs_url: string;        // https://secure.nmi.com/token/Collect.js
+  collectjs_url: string;        // 
 }
 ```
 
